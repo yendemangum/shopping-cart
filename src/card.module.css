@@ -36,4 +36,17 @@ input {
 
 .card:hover, .card:focus {
     border: 4px solid rgb(43, 54, 173)
+}  
+
+
+@media (max-width: 600px) {
+    .productTitle {
+        text-align: center;
+    }
+    input {
+        height: 2rem;
+    }
+    .atc {
+        height: 2rem;
+    }
 }

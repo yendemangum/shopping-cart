@@ -30,3 +30,28 @@ font-size: 3rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     box-sizing: border-box;
 }
+
+
+@media (max-width: 600px) {
+    .h1 {
+        font-size: 2.25rem;
+    }
+
+    .homepage {
+        margin: auto;
+    }
+
+    .img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .grid {
+        margin: auto;
+        width: 80vw;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-auto-rows: minmax(.5fr,600px);
+        gap: 1rem;
+    }
+}

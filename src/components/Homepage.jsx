@@ -15,7 +15,7 @@ function Homepage() {
   }, []);
 
   return (
-    <div>
+    <div className={homepage.homepage}>
       <h1 className={homepage.h1}>Welcome to YendeShop.com!</h1>
       <div className={homepage.grid}>
         {imgArray.map((value) => (

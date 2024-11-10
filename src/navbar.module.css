@@ -14,10 +14,20 @@
 }
 
 @media (max-width: 600px) {
+    .button {
+        font-size: 1.25rem;
+        height: 2.5rem;
+        width: 5rem;
+        border-radius: 0;
+    }
     .navbar {
+        font-size: 1.25rem;
         position: sticky;
         top: 0;
         background-color: white;
         padding: 1rem 0;
+        width: 100vw;
+        justify-content: center;
+        margin: 0;
     }
 }

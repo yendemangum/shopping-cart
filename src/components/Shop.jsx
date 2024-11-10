@@ -29,7 +29,7 @@ function Shop() {
           <div className={shop.total}>Total: {USDollar.format(total)}</div>
           <button onClick={resetCart} className={shop.checkout}>Checkout</button>
       </div>
-      <h1>Browse our selection of {cardArray.length} quality products</h1>
+      <h1 className={shop.h1}>Browse our selection of {cardArray.length} quality products</h1>
       <div className={shop.grid}>
         {cardArray.map((value) => (
           <Card
