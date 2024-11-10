@@ -1,5 +1,5 @@
 
-import navbar from "../navbar.module.css"
+import navbar from "../styles/navbar.module.css"
 import { Link } from "react-router-dom"
 
 // eslint-disable-next-line react/prop-types

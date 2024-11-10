@@ -4,7 +4,7 @@ add to cart
 */
 
 import { useState } from "react";
-import card from "../card.module.css";
+import card from "../styles/card.module.css";
 
 let USDollar = new Intl.NumberFormat('en-US', {
     style: 'currency',
